@@ -1,0 +1,8 @@
+C:\Users\Kane\Projects\CuoiKiCTDL\QLSV\obj\x86\Debug\QLSV.csproj.AssemblyReference.cache
+C:\Users\Kane\Projects\CuoiKiCTDL\QLSV\obj\x86\Debug\QLSV.csproj.CoreCompileInputs.cache
+C:\Users\Kane\Projects\CuoiKiCTDL\QLSV\bin\Debug\ConsoleApplication.exe.config
+C:\Users\Kane\Projects\CuoiKiCTDL\QLSV\bin\Debug\ConsoleApplication.exe
+C:\Users\Kane\Projects\CuoiKiCTDL\QLSV\bin\Debug\ConsoleApplication.pdb
+C:\Users\Kane\Projects\CuoiKiCTDL\QLSV\obj\x86\Debug\QLSV.csproj.ResolveComReference.cache
+C:\Users\Kane\Projects\CuoiKiCTDL\QLSV\obj\x86\Debug\ConsoleApplication.exe
+C:\Users\Kane\Projects\CuoiKiCTDL\QLSV\obj\x86\Debug\ConsoleApplication.pdb

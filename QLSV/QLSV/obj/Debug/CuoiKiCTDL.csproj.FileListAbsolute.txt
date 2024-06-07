@@ -1,0 +1,8 @@
+C:\Users\Kane\Projects\CuoiKiCTDL\CuoiKiCTDL\bin\Debug\CuoiKiCTDL.exe.config
+C:\Users\Kane\Projects\CuoiKiCTDL\CuoiKiCTDL\bin\Debug\CuoiKiCTDL.exe
+C:\Users\Kane\Projects\CuoiKiCTDL\CuoiKiCTDL\bin\Debug\CuoiKiCTDL.pdb
+C:\Users\Kane\Projects\CuoiKiCTDL\CuoiKiCTDL\obj\Debug\CuoiKiCTDL.csproj.AssemblyReference.cache
+C:\Users\Kane\Projects\CuoiKiCTDL\CuoiKiCTDL\obj\Debug\CuoiKiCTDL.csproj.ResolveComReference.cache
+C:\Users\Kane\Projects\CuoiKiCTDL\CuoiKiCTDL\obj\Debug\CuoiKiCTDL.csproj.CoreCompileInputs.cache
+C:\Users\Kane\Projects\CuoiKiCTDL\CuoiKiCTDL\obj\Debug\CuoiKiCTDL.exe
+C:\Users\Kane\Projects\CuoiKiCTDL\CuoiKiCTDL\obj\Debug\CuoiKiCTDL.pdb

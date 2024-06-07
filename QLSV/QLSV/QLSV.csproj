@@ -1,0 +1,132 @@
+﻿<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProjectGuid>{C8083729-852A-42E7-BF66-7368E0E6FF82}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <NoStandardLibraries>false</NoStandardLibraries>
+    <AssemblyName>ConsoleApplication</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <RootNamespace>QLSV</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include=".vscode\settings.json" />
+    <None Include=".vs\CuoiKiCTDL\DesignTimeBuild\.dtbcache.v2" />
+    <None Include=".vs\CuoiKiCTDL\FileContentIndex\370e7bc8-a2bc-4e3c-afcd-eb8005aaab0b.vsidx" />
+    <None Include=".vs\CuoiKiCTDL\FileContentIndex\410740b0-3663-490e-9592-3f44e9fe22d6.vsidx" />
+    <None Include=".vs\CuoiKiCTDL\FileContentIndex\75548bf8-5d4c-49dd-a94f-cf955603402f.vsidx" />
+    <None Include=".vs\CuoiKiCTDL\FileContentIndex\a9798f7c-6591-4b28-b590-2b373b25edbb.vsidx" />
+    <None Include=".vs\CuoiKiCTDL\FileContentIndex\b9f52d8a-7bc0-4e74-a687-f54bc94c862c.vsidx" />
+    <None Include=".vs\CuoiKiCTDL\v17\.futdcache.v2" />
+    <None Include=".vs\CuoiKiCTDL\v17\.suo" />
+    <None Include=".vs\CuoiKiCTDL\v17\.wsuo" />
+    <None Include=".vs\CuoiKiCTDL\v17\DocumentLayout.json" />
+    <None Include=".vs\ProjectSettings.json" />
+    <None Include=".vs\QLSV\copilot-chat\f099c254\sessions\09f30c3b-b29a-4a1d-b7d6-dbd2909edc4a" />
+    <None Include=".vs\QLSV\FileContentIndex\3b9ec26a-d248-4cdc-a0d9-95d3200a7376.vsidx" />
+    <None Include=".vs\QLSV\FileContentIndex\b4f57695-95ee-4ea6-93a3-f59ce833ac65.vsidx" />
+    <None Include=".vs\QLSV\FileContentIndex\db410fbd-8235-4c8d-80a4-4afe08a8778c.vsidx" />
+    <None Include=".vs\QLSV\v17\.suo" />
+    <None Include=".vs\QLSV\v17\.wsuo" />
+    <None Include=".vs\QLSV\v17\DocumentLayout.json" />
+    <None Include=".vs\slnx.sqlite" />
+    <None Include=".vs\VSWorkspaceState.json" />
+    <None Include="App.config" />
+    <None Include="DSSV.xlsx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Core\ICmparable.cs" />
+    <Compile Include="Core\ISpecification.cs" />
+    <Compile Include="Core\MyExcel.cs" />
+    <Compile Include="Core\Student.cs" />
+    <Compile Include="FunctionController.cs" />
+    <Compile Include="List\ArrayList\ArrayList.cs" />
+    <Compile Include="List\CircularLinkedList\CircularLinkedList.cs" />
+    <Compile Include="List\CircularLinkedList\CircularNode.cs" />
+    <Compile Include="List\DoublyLinkedList\DoublyLinkedList.cs" />
+    <Compile Include="List\DoublyLinkedList\DoublyNode.cs" />
+    <Compile Include="List\IMyList.cs" />
+    <Compile Include="List\ListController.cs" />
+    <Compile Include="List\Node.cs" />
+    <Compile Include="List\SinglyLinkedList\SinglyLinkedList.cs" />
+    <Compile Include="List\SinglyLinkedList\SinglyNode.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Sort\BubbleSort.cs" />
+    <Compile Include="Sort\HeapSort.cs" />
+    <Compile Include="Sort\InsertionSort.cs" />
+    <Compile Include="Sort\ISort.cs" />
+    <Compile Include="Sort\MergeSort.cs" />
+    <Compile Include="Sort\QuickSort.cs" />
+    <Compile Include="Sort\SelectionSort.cs" />
+    <Compile Include="Sort\SortController.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="Microsoft.Office.Core">
+      <Guid>{2DF8D04C-5BFA-101B-BDE5-00AA0044DE52}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>8</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="Microsoft.Office.Interop.Excel">
+      <Guid>{00020813-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>9</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="VBIDE">
+      <Guid>{0002E157-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>5</VersionMajor>
+      <VersionMinor>3</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSHARP.Targets" />
+  <ProjectExtensions>
+    <VisualStudio AllowExistingFolder="true" />
+  </ProjectExtensions>
+</Project>
